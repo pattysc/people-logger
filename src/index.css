@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  background-color: #FFF;
+  color: #434343;
+}
+
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #d17e81;
+}
+
+h1:hover{
+  color:#99373a
+}
+
+a{
+  text-decoration: none;
+  color: #d17e81;
+}
+
+.App {
+  text-align: center;
+}
+
+.show{
+  margin-bottom: 50px;
+}
+
+a:hover{
+  color:#99373a
+}
+
+.index{
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.index a{
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 150px;
+  border-radius:40px;
+  background: #FFF;
+  border: 3px solid #d17e81;
+  color:#d17e81;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+button:hover {
+  border: 3px solid #99373a;
+  color:#99373a;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input{
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  background: transparent;
+  outline: none;
+  border: solid 1px #434343;
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #fbf3f4;
+}
