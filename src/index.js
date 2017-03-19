@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
-import PeopleNew from './PeopleNew'
-import PeopleIndex from './PeopleIndex'
-import PeopleShow from './PeopleShow'
-import PeopleEdit from './PeopleEdit'
-import Welcome from './Welcome'
+import PeopleNew from './components/PeopleNew'
+import PeopleIndex from './components/PeopleIndex'
+import PeopleShow from './components/PeopleShow'
+import PeopleEdit from './components/PeopleEdit'
+import Welcome from './components/Welcome'
 import './index.css';
 
 ReactDOM.render((
