@@ -45,9 +45,9 @@ export default class PeopleNew extends Component {
           <header>Add a new person</header><br/>
           <input type="text" id="name" name="name" placeholder="Name" value={this.state.name} onChange={this.handleNameChange.bind(this)}/><br/>
           <input type="text" id="favoriteCity" name="favoriteCity" placeholder="Favorite City" value={this.state.favoriteCity} onChange={this.handleCityChange.bind(this)}/><br/>
-          <button type="button" onClick={this.personSubmission.bind(this)}> Add! </button>
+          <button type="button" onClick={this.personSubmission.bind(this)}> Log new person </button>
         </form>
-        {this.state.saving ? <div class="loader"></div> : ''}
+        {this.state.saving ? 'saving...' : ''}
       </div>
     );
   }
