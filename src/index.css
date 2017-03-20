@@ -22,25 +22,8 @@ a{
   color: #d17e81;
 }
 
-.App {
-  text-align: center;
-}
-
-.show{
-  margin-bottom: 50px;
-}
-
 a:hover{
   color:#99373a
-}
-
-.index{
-  margin-bottom: 25px;
-  font-size: 20px;
-}
-
-.index a{
-  text-decoration: underline;
 }
 
 button {
@@ -63,12 +46,6 @@ button:hover {
   color:#99373a;
 }
 
-#form {
-  position: relative;
-  width: 500px;
-  margin: 50px auto 100px auto;
-}
-
 input{
   width: 470px;
   height: 50px;
@@ -83,4 +60,27 @@ input{
 
 input:hover {
   background: #fbf3f4;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.show{
+  margin-bottom: 50px;
+}
+
+.index{
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.index a{
+  text-decoration: underline;
 }

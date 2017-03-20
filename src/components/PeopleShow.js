@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import './App.css';
 import axios from 'axios'
 import { Link, browserHistory } from 'react-router'
-// import { browserHistory } from 'react-router'
 
 class PeopleIndex extends Component {
   constructor(){
@@ -35,7 +33,7 @@ class PeopleIndex extends Component {
         </div>
         <button onClick={this.deletePerson.bind(this)}>Delete {this.state.person.name}</button><br/>
         <Link to={`/people/${this.state.person.rowid}/edit`}><button>Edit {this.state.person.name}'s info</button></Link> <br/>
-        <Link to='/people'><button>See all my friends</button></Link>
+        <Link to='/people'><button>See all people logged</button></Link>
       </div>
     );
   }
