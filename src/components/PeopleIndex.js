@@ -24,6 +24,7 @@ class PeopleIndex extends Component {
         <h2> These are your logged friends </h2>
         <p>To see more info about them, or edit their info, click on their name!</p>
         <div className="index">
+          {this.state.people.length === 0 ? `No people logged yet :( Log the first person!` : ''}
           {this.state.people.map( (person) => <Link to={`/people/${person.rowid}`}>{person.name}<br/></Link> )}
         </div>
         <Link to='/people/new'><button>Log a new person</button></Link>

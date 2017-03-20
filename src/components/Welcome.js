@@ -9,7 +9,7 @@ class Welcome extends Component {
 
         <p> Here you'll be able to log some of your friends' names and their favorite cities!</p>
 
-        <p>We got you started with one example! You can see a list of all the people logged here: </p>
+        <p>You can see a list of all the people logged here: </p>
         <Link to='/people'><button id="button">See all people logged</button></Link>
 
         <p> Start now by logging someone you know! </p>
