@@ -12,7 +12,9 @@ class PeopleIndex extends Component {
   }
 
   componentWillMount(){
-    axios.get('https://people-logger-api.herokuapp.com/people').then((res) => this.setState({people: res.data}) )
+    axios.get('https://people-logger-api.herokuapp.com/people').then(
+      (res) => this.setState({people: res.data})
+    )
   }
 
   render() {

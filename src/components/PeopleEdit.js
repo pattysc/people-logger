@@ -40,7 +40,7 @@ export default class PeopleNew extends Component {
     axios.patch(`https://people-logger-api.herokuapp.com/people/${this.state.person.rowid}`, person).then(
       setTimeout(() => {
         browserHistory.push(`/people/${this.state.person.rowid}`)
-      }, 100)
+      }, 200)
     )
   }
 

@@ -34,7 +34,7 @@ export default class PeopleNew extends Component {
     axios.post('https://people-logger-api.herokuapp.com/people', person).then(
       setTimeout(() => {
         browserHistory.push('/people')
-      }, 100)
+      }, 200)
     )
   }
 

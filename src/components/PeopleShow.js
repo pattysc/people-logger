@@ -20,7 +20,7 @@ class PeopleIndex extends Component {
     axios.delete(`https://people-logger-api.herokuapp.com/people/${this.props.params.id}`).then(
       setTimeout(() => {
         browserHistory.push('/people')
-      }, 100)
+      }, 200)
     )
   }
 
